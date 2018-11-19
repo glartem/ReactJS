@@ -1,10 +1,8 @@
-import "./index.css";
-import DeveloperInfo from "./components/info.js"
+import React from "react";
+import ReactDOM from "react-dom";
 
-const component = new DeveloperInfo({
-    name: 'Artem Gladkiy',
-    // btn: 'test',
-    // click:  () => alert('click')
-});
-//debugger;
-document.body.appendChild(component.render());
+import './index.css';
+
+import App from './components/App.jsx';
+
+ReactDOM.render(<App/>, document.getElementById('app'));

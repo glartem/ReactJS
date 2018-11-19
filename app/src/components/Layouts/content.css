@@ -1,0 +1,14 @@
+.content-wrapper {
+    flex: 1 1 auto;
+    display: block;
+}
+
+.content-wrapper > #content {
+    display:  block;
+    overflow: auto;
+}
+
+.content-wrapper > .title {
+    display:  block;
+    font-weight: 20px;
+}

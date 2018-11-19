@@ -1,0 +1,13 @@
+ul.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul.nav-bar > li {
+    display: inline;
+}
+
+.menu ul.nav-bar > li {
+    display: list-item;
+}
